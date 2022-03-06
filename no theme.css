@@ -88,6 +88,29 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
 }
 
 
+/* Re-round Spotify Status Images */
+.assetsLargeImageSpotify-17ME3M{border-radius:8px;}
+
+
+/* Pop-out Animation */ 
+.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: top;
+}
+@keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+
 /**/
+
+
+
+
 
 
