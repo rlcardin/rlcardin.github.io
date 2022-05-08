@@ -1,16 +1,13 @@
 
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
-@import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
-
 :root
 {
     --stupid-stuff: none;
-	--mention-colour: 3,120,120;
+	--mention-colour: 64,78,237;
 
-    --bg1: 40,30,50;
-    --bg2: 35,25,45;
-    --bg3: 30,20,40;
-    --bg4: 25,15,35;
+    --bg1: 44,47,51;
+    --bg2: 44,47,51;
+    --bg3: 35,39,42;
+    --bg4: 44,47,51;
 
 	/* SettingsModal */
 	--settingsmodalbackground:     transparent;            /* default:    transparent        (lowest bg color of changed windows, change it in case another theme turns them transparent)    */
@@ -199,8 +196,8 @@ div[id="user-context-call"],
 /* behind message box gone */
 .scroller-kQBbkU 
 {
-    margin-bottom: -100px;
-    padding-bottom: 100px;
+    margin-bottom: -99px;
+    padding-bottom: 99px;
 }
 
 .form-3gdLxP:before 
